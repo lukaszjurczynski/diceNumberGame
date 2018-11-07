@@ -29,34 +29,139 @@ body {
           align-items: center;
 }
 
-.btn-new {
+.btn {
   background-color: #1485CC;
   padding: 1rem 2rem;
   border-radius: 15px;
-  font-size: 1.7rem;
   border: none;
   color: #fff;
   text-transform: uppercase;
   -webkit-transition: all .1s linear;
   transition: all .1s linear;
-  margin-top: 2rem;
   width: 15rem;
   cursor: pointer;
 }
 
-.btn-new:hover {
+.btn:hover {
   background-color: #4ca9e4;
   -webkit-transform: translate(0, -0.1rem);
           transform: translate(0, -0.1rem);
 }
 
-.btn-new:focus {
+.btn:focus {
   outline: none;
 }
 
-.btn-new:active {
+.btn:active {
   -webkit-transform: translate(0, 0rem);
           transform: translate(0, 0rem);
+}
+
+.btn-new {
+  font-size: 1.7rem;
+  margin: 2rem 0;
+}
+
+.btn-roll {
+  margin: 1.2rem 0 1.2rem 0;
+}
+
+.game-container {
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.player-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.player-0-block {
+  width: 30rem;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  margin: 2rem;
+  position: relative;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.26);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.26);
+}
+
+.player-name {
+  font-size: 2rem;
+  color: #707070;
+  text-transform: uppercase;
+  margin: 2rem;
+}
+
+.player-score {
+  font-size: 5.5rem;
+  color: #C43A3A;
+}
+
+.player-1-block {
+  width: 30rem;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  margin: 2rem;
+  position: relative;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.26);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.26);
+}
+
+.player-total-box {
+  position: absolute;
+  bottom: -1rem;
+  right: -5rem;
+  background-color: #C43A3A;
+  width: 10rem;
+  padding: 1.2rem;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.26);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.26);
+}
+
+.player-total-label {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+.player-total-score {
+  color: #fff;
+  font-size: 2.3rem;
+}
+
+.gameicons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.icon {
+  width: 2rem;
+  margin-right: 1rem;
+  margin-top: .2rem;
+}
+
+.fas {
+  margin-right: .5rem;
 }
 
 body {
