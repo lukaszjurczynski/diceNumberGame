@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(20, 133, 204, 0.8)), to(rgba(10, 67, 102, 0.8))), url(../img/bg.jpg);
+  background-image: linear-gradient(to right, rgba(20, 133, 204, 0.8), rgba(10, 67, 102, 0.8)), url(../img/bg.jpg);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-new {
+  background-color: #1485CC;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  font-size: 1.7rem;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+  margin-top: 2rem;
+  width: 15rem;
+  cursor: pointer;
+}
+
+.btn-new:hover {
+  background-color: #4ca9e4;
+  -webkit-transform: translate(0, -0.1rem);
+          transform: translate(0, -0.1rem);
+}
+
+.btn-new:focus {
+  outline: none;
+}
+
+.btn-new:active {
+  -webkit-transform: translate(0, 0rem);
+          transform: translate(0, 0rem);
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
