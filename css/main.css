@@ -158,6 +158,11 @@ body {
   background-color: #fff;
 }
 
+.winner {
+  border: 2rem solid #1eff00;
+  background-color: #fff;
+}
+
 .player-name {
   font-size: 3rem;
   color: #707070;
